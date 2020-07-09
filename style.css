@@ -1,3 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 .logo{
     width: 198.07px;
     height: 59px;
@@ -6,8 +11,8 @@
 }
 .nav-link{
     margin: 0 20px;
-    color: black !important;
-    font-weight: bold;
+    color:#000000 !important;
+    font-size: 16px;
 }
 li:hover{
     color: white ;
@@ -20,6 +25,11 @@ li:hover{
 }
 #question-color{
     color: #FD511A;
+    font-size: 16px;
+}
+.top-para{
+    color: #6C6B6B;
+    font-size: 16px;
 }
 h1{
     font-weight: 800;
@@ -31,19 +41,154 @@ h1{
     border: none;
     border-radius: 33px;
     color: white;
+    font-size: 16px;
 }
 .container{
     margin-bottom: 50px;
 }
 .top-section{
     
-    position: absolute;
     width: 1440px;
     height: 576px;
     left: 0px;
     top: 0px;
     background-color: #F0FFF0;
+    margin-bottom: 35px;
+    margin-top: 0;
 }
 #top-image{
     height: 350px;
+}
+
+    
+.cat1 img{
+    width: 66px;
+    height: 85px;
+    
+}
+.cat2 img{
+    width: 80px;
+    height: 83px;
+    
+}
+.cat3 img{
+    width: 75px;
+    height: 80px;
+}
+.cat4 img{
+    width: 68px;
+    height: 76px;
+    
+}
+
+.cat1,.cat3,.cat4{
+    width: 270px;
+    height: 270px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    padding: 60px 60px;
+    text-align: center;
+    
+    
+}
+.cat2{
+    width: 270px;
+    height: 270px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 60px 60px;
+    border: none;
+    box-shadow: 5px 5px 20px lightgray;
+    text-align: center;
+    
+}
+ h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+}
+.second-para{
+    color: #585859;
+    font-size: 16px;
+}
+.course{
+    text-align: center;
+    color: #413960;
+    font-weight: bold;
+    font-size: 36px;
+}
+.card-text{
+    color: #585859;
+    font-size: 16px;
+}
+.buy-course-button{
+    width: 137px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: #21B573;
+    border: none;
+    border-radius: 33px;
+    font-size: 16px;
+
+}
+.card-img-top{
+    padding: 20px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.calender{
+    width: 24px;
+    height: 24px;
+}
+.card-foot{
+    color: #585859;
+    font-size: 16px;
+}
+.testimonial{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+.man{
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+
+}
+.text-box{
+    width: 583px;
+    height: 90px;
+    margin: 60px 50px;
+    color: #000000;
+}
+.first-section{
+    width: 366px;
+    height: 60px;
+    padding-top: 50px;
+}
+.other-section{
+    width: 123px;
+    height: 181px;
+    padding-top: 50px;
+}
+.bottom-section{
+    width: 1463px;
+    height: 369px;
+    color:#FFFFFF;
+    background-color: #282531;
+
+}
+h6{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+footer{
+    text-align: center;
+    padding-top: 80px;
+    color: #CDCDCD;
 }
